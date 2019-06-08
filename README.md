@@ -16,11 +16,11 @@ usage: retirement.py [-h] --birthday BIRTHDAY --hiredate HIREDATE
 
 `hiredate` same formats as birthdate.
 
-`min-age` in years, but non-integers are not currently supported.
+`min-age` in years, but non-integers are not currently supported. Defaults to 55
 
-`req-years` also in whole years.
+`req-years` also in whole years. Defaults to 10
 
-`magic-number` often, there is some value that is usually the sum of years of service and age.
+`magic-number` often, there is some value that is usually the sum of years of service and age. Defaults to 75
 
 Example:
 
